@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+body {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  object-fit: cover;
+  background-image: url(images/bankfront.jpg);
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  margin: 30px;
+  background: #030000;
+  color: #fff;
+  border-radius: 30px;
+  align-content: center;
+}
+.company {
+  display: flex;
+}
+.one {
+  margin-top: 150px;
+  justify-content: center;
+  align-content: center;
+}
+.login {
+  background: rgb(0, 166, 255);
+  float: right;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 9px;
+  margin-left: 250px;
+}
+.nav h2 {
+  margin-top: 9px;
+}
+.login i {
+  color: #fff;
+  font-size: medium;
+}
+
+.login_modal {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 350px;
+  height: 250px;
+  padding-left: 15px;
+  border: 0.7px solid rgb(0, 166, 255);
+  border-radius: 30px;
+  margin-left: 450px;
+  background: #fff;
+}
+
+.btn button {
+  background: rgb(0, 166, 255);
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: medium;
+}
