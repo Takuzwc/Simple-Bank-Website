@@ -43,10 +43,41 @@
 
         <div class="btn">
           <button>Login</button>
-          <button>Create Acc</button>
+          <button data-modal-target="#modal">Create Acc</button>
         </div>
       </div>
     </section>
+
+    <div class="modal" id="modal">
+      <div class="contactform">
+        <h2 class="message">Create Account</h2>
+
+        <div class="inputbox">
+          <input type="text" name="" required="required" />
+          <span>Name</span>
+        </div>
+        <div class="inputbox">
+          <input type="text" name="" required="required" />
+          <span>Surname</span>
+        </div>
+        <div class="inputbox address">
+          <input type="text" name="" required="required" />
+          <span>Address</span>
+        </div>
+        <div class="inputbox">
+          <input type="text" name="" required="required" />
+          <span>Password</span>
+        </div>
+        <div class="inputbox">
+          <input type="text" name="" required="required" />
+          <span>Confirm Password</span>
+        </div>
+        <div data-close-button class="inputbox">
+          <input type="submit" name="" value="Confirm" />
+        </div>
+      </div>
+    </div>
+    <!--<div id="overlay"></div>-->
     <script src="BankWebsite.js"></script>
   </body>
 </html>

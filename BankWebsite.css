@@ -36,6 +36,16 @@ body {
   margin-top: 9px;
   margin-left: 250px;
 }
+.logout {
+  background: rgb(0, 166, 255);
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 9px;
+  margin-left: 250px;
+  color: #fff;
+}
 .nav h2 {
   margin-top: 9px;
 }
@@ -43,6 +53,41 @@ body {
   color: #fff;
   font-size: medium;
 }
+
+/*Transaction process*/
+.one {
+  margin: 80px;
+  color: #fff;
+}
+.heading {
+  display: flex;
+  margin: 20px;
+  margin-bottom: 35px;
+  float: left;
+}
+.trans {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  padding-top: 10px;
+  align-items: center;
+  background: #000000;
+  opacity: 10;
+}
+.btn {
+  display: flex;
+  margin: 20px;
+}
+.btn button {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  background: rgb(0, 166, 255);
+  margin: 10px;
+  color: #fff;
+}
+/*-----------------------*/
 
 /*----Transaction History----*/
 .traList {
